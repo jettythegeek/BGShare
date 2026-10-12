@@ -1,0 +1,26 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Inno Setup, and the version resource build.ps1 writes next to the script
+Output/
+version_info.txt
+
+# Logs and local runtime data
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
